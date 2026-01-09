@@ -154,7 +154,7 @@ body{
 .features-section .features-subtitle {
     font-size: 14px;
     font-weight: 400;
-    color: #4b5563;
+    color: #87949e;
     margin-bottom: 60px;
     max-width: 600px;
     margin-left: auto;
@@ -203,7 +203,7 @@ body{
 .feature-card p {
     font-size: 12px;
     font-weight: 400;
-    color: #6b7280;
+    color: #87949e;
     line-height: 1.6;
 }
 
@@ -212,14 +212,12 @@ body{
   padding: 120px;
   background-color: #fff;
 }
-
 .service-content {
   display: flex;
   justify-content: space-between; 
   align-items: center;
   gap: 60px; 
 }
-
 .service-image {
   flex: 1;
   text-align: center;
@@ -231,7 +229,6 @@ body{
 .service-text {
   flex: 1;
 }
-
 .service-text h4 {
   color: #469165;
   font-size: 16px;
@@ -252,7 +249,7 @@ body{
 .service-text p {
   font-size: 14px;
   font-weight: 400;
-  color: #4b5563;
+  color: #87949e;
   line-height: 20px;
   margin-bottom: 20px;
 }
@@ -278,6 +275,54 @@ body{
   margin-right: 12px;
   display: inline-block;
 }
+
+/* access section styles */
+
+.access-section {
+  background-color: #ffffff; 
+  margin: 40px;       
+  display: flex;
+  justify-content: center;    
+}
+.access-wrapper {
+  background-color: rgba(247, 246, 242, 1);  
+  padding: 120px ;                   
+  text-align: center;         
+  border-radius: 12px;        
+}
+.access-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #001931;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+.access-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #87949e;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.access-btn:hover {
+  background: linear-gradient(90deg, #4F8DDF 0%, #082C73 100%);
+  color: #ffffff;
+}
+.access-note {
+  font-size: 14px;
+  color: #87949e;
+  margin-top: 15px;
+}
+.access-note span{
+   font-size: 40px;
+}
+
+
+
+
+
+
 
 
 
